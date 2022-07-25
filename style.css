@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/* ############ header ############# */
+header{
+    background-color:blueviolet;
+    padding: 10px 0px;
+    position: fixed;
+    width: 100%;
+}
+.father1{
+    display: flex;
+   justify-content: space-between;
+   align-items: center
+   
+}
+.father1 h1{
+    font-weight: 400;
+    font-size: 25px;
+}
+header nav a{
+    text-decoration: none;
+    padding-left: 20px;
+    color: aliceblue;
+}
+
+/* ############ main ############# */
+
+.father2{
+    background-color: bisque;
+    padding-bottom: 70px;
+    padding-top: 110px;
+
+}
+.child2{
+    width: 48%;
+} 
+.father2 .img1{
+    width: 100%;
+    border: 4px solid black;
+    border-radius: 5px;
+}
+
+
+.father2 article h2{
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
+.father2 article p{
+    font-weight: 300;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    /* word-spacing: 5px; */
+
+}
+
+/* ############### section.father3 ############ */
+.father3{
+    padding:  70px 0px;
+}
+
+
+.father3 figure{
+    width: 30%;
+    margin: 16px 0px;
+}
+
+.father3 figure img{
+    width: 100%;
+}
+
+.father3 .flex{
+    flex-wrap: wrap;
+}
+
+
+/* ########### footer ############ */
+
+footer{
+    background-color: rgba(0, 0, 0, 0.441);
+    padding: 20px;
+    align-items: flex-start;
+}
+
+footer nav i{
+    margin-left: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer .top-btn{
+    display:inline-block;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    line-height: 35px;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid black;
+    position: fixed;
+    right: 40px;
+    bottom: 12px;
+}
+
+
+
+
+
